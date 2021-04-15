@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+@font-face {
+  src: url(/fonts/Montserat/MontserratAlternates-ExtraBold.otf);
+  font-family: mont;
+  src: url(/fonts/Bebas/BebasNeue-Regular.otf);
+  font-family: bebas;
+}
+.toppins {
+  background: rgb(59, 113, 175);
+  width: 100%;
+  height: 140px;
+}
+.toppins .avatar {
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 120px;
+  border-radius: 50%;
+}
+.toppins .sms {
+  max-width: 1100px;
+  margin-left: 200px;
+  margin-top: -30px;
+}
+.sms li {
+  list-style-type: none;
+  display: inline-block;
+}
+.sms li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid thistle;
+  border-radius: 20px;
+}
+.sms li a:hover {
+  background: thistle;
+}
+.moin {
+  max-width: 750px;
+  height: 800px;
+  margin: 0 auto;
+}
+.moin .career-title {
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  color: thistle;
+  font-family: mont;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.moin .career-brief {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.moin .des {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.moin .roll {
+  padding-top: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+.uuu {
+  background: thistle;
+  max-width: 100%;
+  height: 42vh;
+}
+
+/* about me page */
+.abbt {
+  padding-top: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-indent: 25px;
+  line-height: 35px;
+}
+/* CV page */
+.history {
+  background: rgb(143, 130, 143);
+  height: 78vh;
+}
+.uuu::before,
+::after {
+  content: "";
+  position: absolute;
+  max-width: 100%;
+  height: 20vh;
+  background: rgb(24, 24, 24);
+  z-index: 20;
+}
+input[type="button"] {
+  text-decoration: underline;
+  padding: 10px;
+  position: relative;
+  background: violet;
+  border: none;
+  border-radius: 15px;
+  margin-top: 48px;
+  margin-left: 650px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.enquiry input:focus {
+  outline: none;
+}
+/* Projects Page */
+.proj-1,
+.proj-2 {
+  margin-top: 45px;
+  font-family: sans-serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+}
+.proj-2 {
+  font-size: 24px;
+  font-weight: lighter;
+}
+.proj .dsk-version,
+.search-engine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+.proj .dsk-version:hover {
+  opacity: 0.7;
+}
+.proj .mobile-version {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+/* socials page */
+.jj {
+  max-width: 100%;
+  height: 78vh;
+  background: thistle;
+}
+.jj p {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 220px;
+}
